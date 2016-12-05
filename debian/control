@@ -1,0 +1,12 @@
+Source: ros-indigo-hiqp-msgs
+Section: misc
+Priority: extra
+Maintainer: Marcus A Johansson <marcus.adam.johansson@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-std-msgs, ros-indigo-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-hiqp-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-std-msgs, ros-indigo-visualization-msgs
+Description: Messages and services for the HiQP Control Framework
