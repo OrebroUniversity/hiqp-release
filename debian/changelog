@@ -1,0 +1,14 @@
+ros-indigo-hiqp-ros (0.0.1-0saucy) saucy; urgency=high
+
+  * Added emtapackage hiqp
+  * update
+  * Added base_controller to hiqp_ros
+  * Fixed hiqp_ros
+  * Changed package name hiqp_msgs_srvs -> hiqp_msgs
+  * Changed project name hiqp_controllers -> hiqp
+  * Added hiqp_ros package
+  * Contributors: neckutrek
+
+ -- Marcus A Johansson <marcus.adam.johansson@gmail.com>  Sun, 04 Dec 2016 23:00:00 -0000
+
+
