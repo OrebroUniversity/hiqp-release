@@ -1,0 +1,12 @@
+Source: ros-kinetic-hiqp
+Section: misc
+Priority: extra
+Maintainer: Marcus A Johansson <marcus.adam.johansson@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hiqp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-hiqp-core, ros-kinetic-hiqp-msgs, ros-kinetic-hiqp-ros
+Description: The HiQP Control Framework (including ROS support).
