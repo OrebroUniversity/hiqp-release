@@ -1,0 +1,12 @@
+Source: ros-kinetic-hiqp-core
+Section: misc
+Priority: extra
+Maintainer: Marcus A Johansson <marcus.adam.johansson@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-controller-interface, ros-kinetic-hiqp-msgs, ros-kinetic-kdl-parser, ros-kinetic-orocos-kdl, ros-kinetic-roscpp, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hiqp-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-interface, ros-kinetic-hiqp-msgs, ros-kinetic-kdl-parser, ros-kinetic-orocos-kdl, ros-kinetic-roscpp, ros-kinetic-visualization-msgs
+Description: The HiQP Control Framework
