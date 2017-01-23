@@ -1,0 +1,8 @@
+ros-kinetic-hiqp-core (0.0.1-0wily) wily; urgency=high
+
+  * Added emtapackage hiqp
+  * Contributors: neckutrek
+
+ -- Marcus A Johansson <marcus.adam.johansson@gmail.com>  Sun, 04 Dec 2016 23:00:00 -0000
+
+
